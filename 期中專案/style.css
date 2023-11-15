@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    background-color: ;
+    background-color: #C8CC75;
     font-family: Arial;
     text-align: center;
 }
@@ -26,22 +26,87 @@ nav a {
     display: inline-block
 }
 
-.photo {
-    background-image: url(image01.jpg);
-    height: 1000px;
-}
+
 
 .card {
     background-color: #003153;
-    padding: 20px;
+    padding: 30px;
     margin: 10px 100px;
     border-radius: 15px;
-    background-size: cover;
     color: #e5ddd7;
-    text-align: center;
     font-size: x-large;
+}
+
+article {
+    float: left;
+    width: 40%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    height: 100%;
 }
 
 h2 {
     text-align: left;
+}
+
+.g-progress {
+    width: 200px;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #0f0, #0ff 60%, transparent 0);
+    border: 2px solid #eee;
+}
+
+.g-progress1 {
+    width: 200px;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #0f0, #0ff 50%, transparent 0);
+    border: 2px solid #eee;
+}
+
+.card1 {
+    background-color: #A4ABD6;
+    padding: 205px;
+    margin: 10px 40px;
+    border-radius: 15px;
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    width: 40%;
+    height: 100%;
+}
+
+.card2 {
+    float: right;
+    width: 30%;
+}
+
+.p1 {
+    text-align: center;
+
+}
+
+body>footer {
+    background-color: #003153;
+    position: sticky;
+    top: 100vh;
+}
+
+.clearfix {
+    clear: both;
+}
+
+main {
+    padding: 20px;
+}
+
+.pic1 {
+    position: relative;
+    top: px;
+    left: 500px;
+    border-radius: 100px;
 }

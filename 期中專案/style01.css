@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5ddd7;
+    margin: 0px;
+}
+
+header {
+    background-color: #003153;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav {
+    background-color: ;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block
+}
+
+.photo {
+    background-image: url(image01.jpg);
+    height: 1000px;
+}
+
+.card {
+    background-color: #003153;
+    padding: 20px;
+    margin: 10px 100px;
+    border-radius: 15px;
+    background-size: cover;
+    color: #e5ddd7;
+    text-align: center;
+    font-size: x-large;
+}
+
+h2 {
+    text-align: left;
+}
